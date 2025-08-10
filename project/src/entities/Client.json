@@ -28,31 +28,31 @@
     },
     "company": {
       "type": "string",
-      "description": "Client's company name"
+      "description": "Client's company or organization name"
     },
-    "legalMatter": {
+    "eventType": {
       "type": "string",
-      "description": "Description of the legal matter or case type"
+      "description": "Type of event: wedding, funeral, corporate, birthday, anniversary, other"
+    },
+    "eventDate": {
+      "type": "string",
+      "description": "Date of the event"
     },
     "status": {
       "type": "string",
-      "description": "Client status: prospect, consultation_scheduled, active, closed"
+      "description": "Client status: prospect, quoted, booked, completed, cancelled"
     },
-    "priority": {
-      "type": "string",
-      "description": "Priority level: low, medium, high"
+    "budget": {
+      "type": "number",
+      "description": "Client's budget for floral arrangements"
     },
     "notes": {
       "type": "string",
-      "description": "Additional notes about the client"
+      "description": "Additional notes about preferences, requirements, etc."
     },
-    "consultationDate": {
+    "contactDate": {
       "type": "string",
-      "description": "Date and time of consultation"
-    },
-    "potentialValue": {
-      "type": "number",
-      "description": "Estimated potential case value"
+      "description": "Date of last contact"
     }
   },
   "required": [
